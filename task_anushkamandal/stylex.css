@@ -1,0 +1,134 @@
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 2px blue,
+    3px 3px 2px violet;
+    text-align: center;
+        
+  }
+  h2 {
+    display: block;
+    font-size: 40px;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 500;
+    color: black;
+    text-shadow: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    color: black;
+  }
+
+  carousel-item5{
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+  img {
+    padding: 30px;
+  }
+
+  .flex-items{
+    display: flex;
+    float: left;
+
+  }
+
+  body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  .btn btn-secondary{ 
+    text-align: center; }
+
+  .exampleModal{
+    padding: 20px;
+    text-align: center;
+  }
+
+  #row g-2{
+    padding: 40px;
+    text-align: center;
+  }
+
+  #btn btn-primary{
+    text-align: center;
+  }
+
+    footer {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    footer a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: white;
+    }
+
+    #tasks{
+      border-radius: 10px;
+      width: 100%;
+      position: relative;
+      background-color: #ffffff;
+      padding: 30px 20px;
+      margin-top: 10px;
+  }
+  .task button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.task span{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.task button{
+  background-color: #0a2ea4;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .cards{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
